@@ -1,20 +1,20 @@
 ## Design and Implementation of LangChain Expression Language (LCEL) Expressions
 
-### AIM:
+# AIM:
 To design and implement a LangChain Expression Language (LCEL) expression that utilizes at least two prompt parameters and three key components (prompt, model, and output parser), and to evaluate its functionality by analyzing relevant examples of its application in real-world scenarios.
 
-### PROBLEM STATEMENT:
+# PROBLEM STATEMENT:
 Design and integrate a Python function that calculates the volume of a cylinder, and enable the function to be called through a chat completion system, simulating an LLM interface
 
-### DESIGN STEPS:
-# STEP 1: Setup API and Environment: Load environment variables using dotenv and set openai.api_key from the local environment.
-# STEP 2: Create Prompt and Model: Use LangChain to define a ChatPromptTemplate and initialize ChatOpenAI for text generation.
-# STEP 3: Build a Retrieval System: Store predefined texts in DocArrayInMemorySearch with OpenAIEmbeddings and create a retriever.
-# STEP 4: Define Question-Answering Chain: Use RunnableMap to fetch relevant documents and pass them to a chat model for responses.
-# STEP 5: Invoke the Chain: Run chain.invoke() with a question to retrieve context-based answers using the LangChain pipeline.
+# DESIGN STEPS:
+### STEP 1: Setup API and Environment: Load environment variables using dotenv and set openai.api_key from the local environment.
+### STEP 2: Create Prompt and Model: Use LangChain to define a ChatPromptTemplate and initialize ChatOpenAI for text generation.
+### STEP 3: Build a Retrieval System: Store predefined texts in DocArrayInMemorySearch with OpenAIEmbeddings and create a retriever.
+### STEP 4: Define Question-Answering Chain: Use RunnableMap to fetch relevant documents and pass them to a chat model for responses.
+### STEP 5: Invoke the Chain: Run chain.invoke() with a question to retrieve context-based answers using the LangChain pipeline.
 
 
-### PROGRAM:
+# PROGRAM:
 ```
 Name: Hariharan .s
 Reg  no: 212224040101
@@ -100,8 +100,8 @@ print("Recommendation:", parsed_result)
 
 ```
 
-### OUTPUT:
+#  OUTPUT:
 <img width="540" height="160" alt="output for exp 2" src="https://github.com/user-attachments/assets/2424af5f-a046-4ed7-976a-5c2f1fcc6381" />
 
-### RESULT:
+# RESULT:
 The implemented LCEL expression takes at least two prompt parameters, processes them using a model, and formats the output with a parser, demonstrating its effectiveness through real-world examples.
